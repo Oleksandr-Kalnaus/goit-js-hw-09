@@ -7,12 +7,21 @@
     
     <title>Form</title>
     <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js"></script>
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/2-form-1032bbfd.css">
   </head>
   <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to form</h1>
-    </section>
+    <p><a href="./index.html">Go to home</a></p>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
     
   </body>
 </html>
