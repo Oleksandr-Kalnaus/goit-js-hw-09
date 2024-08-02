@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 24px;
+    background: #fff;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
